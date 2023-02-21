@@ -2,6 +2,7 @@ import cloud from './cloud.png'
 import hero from './hero.png'
 import landingApps from './landing-apps.png'
 import landingProviders from './landing-providers.png'
+import logo from './logo.png'
 import service1 from './service-1.svg'
 import service2 from './service-2.svg'
 import service3 from './service-3.svg'
@@ -15,6 +16,7 @@ export {
   hero,
   landingApps,
   landingProviders,
+  logo,
   service1,
   service2,
   service3,

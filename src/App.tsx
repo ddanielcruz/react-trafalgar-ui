@@ -1,7 +1,10 @@
+import { Hero, Navbar } from './components'
+
 export default function App() {
   return (
-    <main className="flex flex-col items-center">
-      <h1 className="text-3xl font-bold">Hello world</h1>
+    <main className="w-full max-w-7xl mx-auto">
+      <Navbar />
+      <Hero />
     </main>
   )
 }

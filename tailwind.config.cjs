@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#458FF6'
+        primary: '#458FF6',
+        secondary: '#7D7987'
       },
       fontFamily: {
         mulish: ['Mulish', 'sans-serif']
