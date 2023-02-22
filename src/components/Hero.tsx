@@ -3,7 +3,7 @@ import Button from './Button'
 
 export default function Hero() {
   return (
-    <section className="flex items-center justify-between">
+    <section className="flex items-center justify-between mt-4">
       <div className="flex flex-col gap-8 items-start">
         <h1 className="font-bold text-5xl">
           Virtual healthcare
