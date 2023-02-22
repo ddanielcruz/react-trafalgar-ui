@@ -1,5 +1,6 @@
 import { cloud, service1, service2, service3, service4, service5, service6 } from '../assets'
 import Button from './Button'
+import Separator from './Separator'
 
 const SERVICES = [
   {
@@ -39,8 +40,8 @@ export default function Services() {
   return (
     <section className="relative flex flex-col items-center mt-40">
       <h2 className="text-4xl font-bold">Our services</h2>
-      <div className="border-b-2 border-black w-14 my-8" />
-      <p className="text-secondary text-center max-w-4xl z-10">
+      <Separator />
+      <p className="text-secondary text-center max-w-4xl z-10 font-light">
         We provide to you the best choices for you. Adjust it to your health needs and make sure
         your undergo treatment with our highly qualified doctors you can consult with us which type
         of service is suitable for your health
@@ -54,7 +55,7 @@ export default function Services() {
               <img src={icon} alt={title} />
             </div>
             <h3 className="text-2xl font-bold mt-8 mb-4">{title}</h3>
-            <p className="text-secondary">{description}</p>
+            <p className="text-secondary font-light">{description}</p>
           </div>
         ))}
       </div>
